@@ -38,7 +38,7 @@ public class StringOperations {
 		System.out.println("isEqual based on lexicoGraphically : " + st1.compareTo(st2));
 		System.out.println("isEqual : " + st1.equals(st2));
 		System.out.println(st1.contains("hel"));
-
+		
 	}
 
 }// end StringOperation Class

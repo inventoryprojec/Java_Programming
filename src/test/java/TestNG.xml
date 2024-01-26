@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="Seagul">
-  <test name="Test">
-    <classes>
-      <class name="practice.StringOperations"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="FullstackFramework" parallel="methods">
+
+	<test name="Selenium_Advanced_Code">
+		<!-- <parameter name="browser" value="chrome" /> -->
+		<classes>
+			<!-- <class name="com.kohls.test.CompareToObject" /> -->
+			<class name="practice.StringOperations" />
+
+		</classes>
+
+	</test>
+
+</suite>
