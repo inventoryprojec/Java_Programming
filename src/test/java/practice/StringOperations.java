@@ -29,4 +29,16 @@ public class StringOperations {
 		// Display a string upper case
 		System.out.println(str3.toUpperCase());
 	}// end the test method
+
+	@Test
+	public void compareString() {
+
+		String st1 = "Hello";
+		String st2 = "hello";
+		System.out.println("isEqual based on lexicoGraphically : " + st1.compareTo(st2));
+		System.out.println("isEqual : " + st1.equals(st2));
+		System.out.println(st1.contains("hel"));
+
+	}
+
 }// end StringOperation Class
